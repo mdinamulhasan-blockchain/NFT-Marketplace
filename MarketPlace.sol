@@ -2,7 +2,11 @@
 
 pragma solidity 0.8.4;
 
-import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC721/IERC721.sol";
+import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC721/IERC721.sol";  //REMIX IDE
+
+//HARDHAT :
+//import "@openzeppelin/contracts/token/ERC721/IERC721.sol";
+
 
 contract Marketplace {
     uint256 public itemCounter;
